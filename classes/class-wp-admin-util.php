@@ -63,13 +63,55 @@ class WP_Admin_Util {
      * @param string $post_type Post type of screen to check.
      * @return boolean Whether or not the current screen is the add or edit screen for a given post type.
      */
-    public function is_add_or_edit_screen( $post_type ) {
+    public function is_post_type_add_or_edit_screen( $post_type ) {
+
+        return
+            $this->is_post_type_add_screen( $post_type )
+            || $this->is_post_type_edit_screen( $post_type );
+
+    }
+
+    /**
+     * Determines if the current screen is the add screen for a given post type.
+     *
+     * @param string $post_type Post type of screen to check.
+     * @return boolean Whether or not the current screen is the add screen for a given post type.
+     */
+    public function is_post_type_add_screen( $post_type ) {
 
         $screen = get_current_screen();
 
         return
-            $post_type === $screen->post_type
-            && ( 'add' === $screen->action || ( array_key_exists( 'action', $_REQUEST ) && 'edit' === $_REQUEST[ 'action' ] ) );
+            $this->is_post_type_screen( $post_type )
+            && 'add' === $screen->action;
+
+    }
+
+    /**
+     * Determines if the current screen is the edit screen for a given post type.
+     *
+     * @param string $post_type Post type of screen to check.
+     * @return boolean Whether or not the current screen is the edit screen for a given post type.
+     */
+    public function is_post_type_edit_screen( $post_type ) {
+
+        return
+            $this->is_post_type_screen( $post_type )
+            && ( array_key_exists( 'action', $_REQUEST ) && 'edit' === $_REQUEST[ 'action' ] );
+
+    }
+
+    /**
+     * Determines if the current screen is for a given post type.
+     *
+     * @param string $post_type Post type of screen to check.
+     * @return boolean Whether or not the current screen is  for a given post type.
+     */
+    public function is_post_type_screen( $post_type ) {
+
+        $screen = get_current_screen();
+
+        return $post_type === $screen->post_type;
 
     }
 
