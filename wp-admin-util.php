@@ -12,7 +12,7 @@
  * Plugin Name: WP Admin Util
  * Plugin URI: https://github.com/manovotny/wp-admin-util
  * Description: A lovely collection of utilities for developing within the WordPress admin.
- * Version: 0.1.0
+ * Version: 0.2.0
  * Author: Michael Novotny
  * Author URI: http://manovotny.com
  * License: GPL-3.0+
