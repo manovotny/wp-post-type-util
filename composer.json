@@ -1,6 +1,6 @@
 {
   "name": "manovotny/wp-admin-util",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Nifty utilities for developing in the WordPress admin.",
   "type": "library",
   "homepage": "https://github.com/manovotny/wp-admin-util/",
