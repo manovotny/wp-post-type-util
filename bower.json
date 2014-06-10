@@ -1,0 +1,22 @@
+{
+  "name": "wp-admin-util",
+  "version": "0.0.0",
+  "description": "Nifty utilities for developing in the WordPress admin.",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/manovotny/wp-admin-util.git"
+  },
+  "keywords": [
+    "admin",
+    "php",
+    "utility",
+    "wordpress"
+  ],
+  "authors": [
+    {
+      "name": "Michael Novotny",
+      "email": "manovotny@gmail.com",
+      "homepage": "http://manovotny.com"
+    }
+  ]
+}
