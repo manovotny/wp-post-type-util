@@ -1,4 +1,4 @@
-wp-admin-util
+wp-post-type-util
 ==========
 
-A lovely collection of utilities for developing within the WordPress admin.
+A lovely collection of post type utilities for WordPress.

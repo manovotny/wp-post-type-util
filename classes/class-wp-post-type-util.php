@@ -1,10 +1,10 @@
 <?php
 /**
- * @package WP_Admin_Util
+ * @package WP_Post_Type_Util
  * @author Michael Novotny <manovotny@gmail.com>
  */
 
-class WP_Admin_Util {
+class WP_Post_Type_Util {
 
     /* Properties
     ---------------------------------------------------------------------------------- */
@@ -15,14 +15,14 @@ class WP_Admin_Util {
     /**
      * Instance of the class.
      *
-     * @var WP_Admin_Util
+     * @var WP_Post_Type_Util
      */
     protected static $instance = null;
 
     /**
      * Get accessor method for instance property.
      *
-     * @return WP_Admin_Util Instance of the class.
+     * @return WP_Post_Type_Util Instance of the class.
      */
     public static function get_instance() {
 
