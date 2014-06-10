@@ -115,4 +115,16 @@ class WP_Admin_Util {
 
     }
 
+    /**
+     * Determines if the post meta being saved is for a given post type.
+     *
+     * @param string $post_type Post type of post meta to save.
+     * @return boolean Whether or not the post meta being saved is for a given post type.
+     */
+    public function is_post_type_saving_post_meta( $post_type ) {
+
+        return ! empty( $_POST ) && $post_type === $_POST[ 'post_type' ];
+
+    }
+
 }
