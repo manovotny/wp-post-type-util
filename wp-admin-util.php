@@ -1,6 +1,6 @@
 <?php
 /**
- * Nifty utilities for developing in the WordPress admin.
+ * A lovely collection of utilities for developing within the WordPress admin.
  *
  * @package WP_Admin_Util
  * @author Michael Novotny <manovotny@gmail.com>
@@ -11,7 +11,7 @@
  * @wordpress-plugin
  * Plugin Name: WP Admin Util
  * Plugin URI: https://github.com/manovotny/wp-admin-util
- * Description: Nifty utilities for developing in the WordPress admin.
+ * Description: A lovely collection of utilities for developing within the WordPress admin.
  * Version: 0.1.0
  * Author: Michael Novotny
  * Author URI: http://manovotny.com

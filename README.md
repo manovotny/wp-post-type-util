@@ -1,4 +1,4 @@
 wp-admin-util
 ==========
 
-Nifty utilities for developing in the WordPress admin.
+A lovely collection of utilities for developing within the WordPress admin.
