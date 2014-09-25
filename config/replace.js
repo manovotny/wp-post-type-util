@@ -16,11 +16,11 @@ module.exports = (function () {
             name: 'WP Post Type Util',
             slug: 'wp-post-type-util',
             url: 'https://github.com/manovotny/wp-post-type-util',
-            version: '0.3.0'
+            version: '1.0.0'
         },
         translations: {
-            domain: 'TRANSLATIONS_DOMAIN',
-            path: 'TRANSLATIONS_PATH'
+            domain: 'wp-post-type-util',
+            path: 'lang'
         }
     };
 
