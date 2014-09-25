@@ -3,6 +3,44 @@
     "version": "0.3.0",
     "description": "A lovely collection of post type utilities for WordPress.",
     "type": "library",
-    "homepage": "https://github.com/manovotny/wp-post-type-util/",
-    "license": "GPL-3.0+"
+    "homepage": "https://github.com/manovotny/wp-post-type-util",
+    "authors": [
+        {
+            "name": "Michael Novotny",
+            "email": "manovotny@gmail.com",
+            "homepage": "http://manovotny.com",
+            "role": "Developer"
+        }
+    ],
+    "license": "GPL-3.0+",
+    "keywords": [
+        "admin",
+        "custom",
+        "post types",
+        "posts",
+        "utility",
+        "wordpress"
+    ],
+    "require": {
+
+    },
+    "require-dev": {
+        "manovotny/wp-phpunit-helpers": "0.1.0",
+        "phpunit/phpunit": "4.1.*"
+    },
+    "autoload": {
+        "classmap": [
+            "src"
+        ],
+        "files": [
+            "wp-post-type-util.php"
+        ]
+    },
+    "autoload-dev": {
+        "classmap": [
+            "vendor/phpunit",
+            "vendor/sebastian",
+            "vendor/symfony"
+        ]
+    }
 }

@@ -1,8 +1,4 @@
 <?php
-/**
- * @package WP_Post_Type_Util
- * @author Michael Novotny <manovotny@gmail.com>
- */
 
 class WP_Post_Type_Util {
 
